@@ -29,7 +29,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 
 browser = webdriver.Chrome("C:/Users/abhishek.chikara/Chromedriver.exe")
-browser.get('http://agmarknet.gov.in/PriceTrends/Sa_Week_pri.aspx')
+browser.get('website') #Website contain dyanamic elements
 
 wait = WebDriverWait(browser,120)
 def find_wait(selector=''):
